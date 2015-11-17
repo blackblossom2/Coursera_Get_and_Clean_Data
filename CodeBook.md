@@ -90,7 +90,7 @@ Naming - Each variable name has 5 levels of descriptor:
 5. 'X', 'Y', or 'Z' is used to denote 3-axial signals in the X, Y and Z directions.
 Please see files "features.txt" and "features_info.txt" for more detailed description of each variable.
 
-Measurement variables characteristics:
+Characteristics - measurement variables:
 
 1. Features are normalized and bounded within [-1,1]. 
 2. The units used for the accelerations (total and body) (indicated with 'Acc' in variable name) are 'g's (gravity of earth -> 9.80665 m/seg2). 
