@@ -1,6 +1,6 @@
-title: "Getting and Cleaning Data Project - CodeBook"<br>
-author: "Linh Vu"<br>
-date: "11/16/2015"<br>
+Title: "Getting and Cleaning Data Project - CodeBook"<br>
+Author: "Linh Vu"<br>
+Date: "11/16/2015"<br>
 
 ---
 
