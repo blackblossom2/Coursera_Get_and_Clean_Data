@@ -24,17 +24,17 @@ The independent measurements used to organize tidy data here are the "subjectID"
 ### Step-by-step execution of script:
 
  0-a. Preparing working environment:
-  - When sourced, the script starts out by preparing the working environment
-  - set.wd() sets the working directory
-  - library() loads needed data and libraries
-  - if (!file.exists("data")) {dir.create("data")} creates a data folder if it does not exist already
-  - download.file() and unzip() download and unzip data into above data folder. 
-  - read.table () reads data into R data frames with appropriate column names using "colnames = " argument.
+ -  When sourced, the script starts out by preparing the working environment
+ -  set.wd() sets the working directory
+ -  library() loads needed data and libraries
+ -  if (!file.exists("data")) {dir.create("data")} creates a data folder if it does not exist already
+ -  download.file() and unzip() download and unzip data into above data folder. 
+ -  read.table () reads data into R data frames with appropriate column names using "colnames = " argument.<br>
 
  0-b. Assign appropriate, valid column names before merging:
-  - labels are read from "features.txt" file using read.table() command
-  - make.names() command removes invalid characters from labels
-  - colnames() calls up appropriate column names for re-naming with valid labels
+ -  labels are read from "features.txt" file using read.table() command
+ -  make.names() command removes invalid characters from labels
+ -  colnames() calls up appropriate column names for re-naming with valid labels
 
 1. Merging data into one main data frames:
  - cbind() combines subjectID, activityID, and measurements for the test subset.
