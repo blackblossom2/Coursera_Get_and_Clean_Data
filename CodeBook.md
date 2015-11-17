@@ -80,7 +80,8 @@ For more detailed descriptions of the script used, please see "README.md" file.
 
 ### Mean and standard deviation measurement variables
 These are 86 numerical variables reporting the averaged mean and standard deviation of each measurement variable for each subject and each activity.
-Each variable name has 5 levels of descriptor:
+
+Naming - Each variable name has 5 levels of descriptor:
 
 1. Prefix 't' to denote time domain signals or 'f' to denote frequency domain signals.
 2. 'Body' or 'Gravity' acceleration signal was separated using a low pass Butterworth filter.
@@ -89,6 +90,11 @@ Each variable name has 5 levels of descriptor:
 5. 'X', 'Y', or 'Z' is used to denote 3-axial signals in the X, Y and Z directions.
 Please see files "features.txt" and "features_info.txt" for more detailed description of each variable.
 
+Measurement variables characteristics:
+
+1. Features are normalized and bounded within [-1,1]. 
+2. The units used for the accelerations (total and body) (indicated with 'Acc' in variable name) are 'g's (gravity of earth -> 9.80665 m/seg2). 
+3. The gyroscope units (indicated with 'Gyr' in variable name) are rad/seg. 
 
 ## Sources
 [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
